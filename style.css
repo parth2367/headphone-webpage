@@ -420,3 +420,8 @@ body {
   position: absolute;
   bottom: -68px !important;
 }
+
+.testimonial-carousel {
+  margin-left: 75px;
+  overflow: visible;
+}
