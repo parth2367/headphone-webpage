@@ -149,7 +149,7 @@ body {
 
 .about-us {
   width: 100%;
-  height: 365px;
+  height: 380px;
   background-color: rgb(54, 54, 54);
   margin-top: 140px;
   position: relative;
@@ -220,11 +220,11 @@ body {
 }
 
 .img-about {
-  height: 435px;
-  width: 32%;
+  height: 445px;
+  width: 33%;
   position: absolute;
   top: -50px;
-  right: 120px;
+  right: 100px;
 }
 
 /* about section end */
@@ -424,4 +424,117 @@ body {
 .testimonial-carousel {
   margin-left: 75px;
   overflow: visible;
+}
+
+/* testimonial part finished */
+
+/* contact form */
+.contact-form {
+  width: 100%;
+  height: 100vh;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-contact {
+  font-size: 34px;
+  color: rgb(255, 50, 70);
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.form-origin {
+  width: 100%;
+  height: 480px;
+  background-color: rgb(42, 41, 41);
+  padding: 50px 30px;
+  border-radius: 8px;
+}
+
+.form-origin input {
+  color: #777;
+  font-size: 14px;
+  border: 1px solid #e4e3e3;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  padding: 16px;
+  margin-bottom: 40px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.874) !important;
+}
+
+.form-origin textarea {
+  height: 200px;
+  padding: 20px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #777;
+}
+
+.btn-contact {
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  background-color: #f4813f;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 20px 0;
+  border: 1px solid rgb(255, 50, 70);
+}
+
+.content-contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 8px 18px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading-content {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.heading-content span {
+  color: rgb(255, 50, 70);
+}
+
+.para-content {
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.918);
+  margin: 16px 0px;
+}
+
+/* contact form completed */
+
+footer {
+  background-color: rgb(4, 4, 4);
+  margin: 0px 0px !important;
+  height: 10vh;
+  margin-top: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para-footer {
+  margin: 0px 0px;
 }
