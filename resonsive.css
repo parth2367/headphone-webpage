@@ -17,8 +17,8 @@
         background-color: white;
     }
 
-    .nav-item .nav-links {
-        color: black;
+    .nav-item .nav-link {
+        color: #000;
         font-size: 17px;
         font-weight: 600;
     }
@@ -40,6 +40,7 @@
     .img-home {
         width: 420px;
         margin-right: 0px;
+        margin-left: -100px;
     }
 
     .home-heading {
@@ -53,11 +54,11 @@
     }
 
     .img-about {
-        height: 80%;
-        width: 100%;
+        height: 100%;
+        width: 575px;
         position: static;
-        top: 0px;
-        right: 0px;
+        margin-top: -50px;
+        margin-left: 50px;
     }
 
     .about-us-container {
@@ -66,6 +67,7 @@
 
     .about-us {
         margin-top: 0px;
+        height: 800px;
     }
 
     .product-category {
@@ -81,6 +83,7 @@
     .container-content {
         width: 90%;
         height: 350px;
+        margin-bottom: 80px;
     }
 
     .testimonial {
@@ -123,13 +126,22 @@
     }
 
     .img-home {
-        width: 500px;
+        width: 700px;
+        margin-left: 60px;
         margin-top: 50px;
     }
 
+
     .about-us {
-        margin-top: 140px;
-        height: 80vh;
+        height: 750px;
+        margin-top: 0px;
+    }
+
+    .img-about {
+        margin-top: -20px;
+        margin-left: 30px;
+        width: 85%;
+        height: 93%;
     }
 
     .about-us-container {
@@ -165,11 +177,9 @@
         padding: 10px 20px;
     }
 
-    .img-about {
-        width: 100%;
-    }
 
     .heading-product {
+        margin-top: 150px;
         margin-bottom: 60px;
     }
 
@@ -184,6 +194,7 @@
     .container-content {
         width: 80%;
         height: 350px;
+        margin-bottom: 70px;
     }
 
     .heading-testimonial {
@@ -202,7 +213,7 @@
     .img-home {
         width: 340px;
         margin-top: 50px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .home-heading {
@@ -211,16 +222,28 @@
     }
 
     .about-us-container {
-        padding-top: 2rem !important;
+        padding-top: 1rem !important;
+    }
+
+    .about-us {
+        height: 750px;
+        margin-top: 50px;
+    }
+
+    .img-about {
+        margin-left: 10px;
+        height: 95%;
+        width: 90%;
     }
 
     .heading-product {
-        font-size: 25px;
         margin-top: 0px;
     }
 
     .container-content {
-        width: 70%;
+        margin-left: -30px;
+        margin-bottom: 60px;
+        width: 95%;
         height: auto;
         padding: 11px;
     }
@@ -231,8 +254,8 @@
     }
 
     .img-client {
-        width: 90px;
-        height: 90px;
+        width: 85px;
+        height: 85px;
     }
 
     .client-home {
@@ -242,5 +265,9 @@
     .para-client {
         font-size: 13px;
         line-height: 21px;
+    }
+
+    .heading-contact {
+        margin-top: 250px;
     }
 }
